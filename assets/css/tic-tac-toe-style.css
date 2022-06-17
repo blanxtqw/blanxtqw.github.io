@@ -1,0 +1,76 @@
+body {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  padding: 1vh;
+  border-bottom: 2px solid purple;
+}
+
+#o-team {
+  color: red;
+  font-size: 3rem;
+  opacity: 20%;
+}
+
+#x-team {
+  color: blue;
+  font-size: 3rem;
+  opacity: 20%;
+}
+
+main {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 10vh;
+}
+
+#board {
+  background-color: black;
+  width: 40vh;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.square {
+  width: 13vh;
+  height: 13vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choose {
+  font-size: 3rem;
+}
+
+.circle {
+  color: red;
+}
+
+.axis {
+  color: blue;
+}
+
+footer {
+  height: 10vh;
+  background-color: purple;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
